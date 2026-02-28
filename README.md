@@ -81,7 +81,7 @@ npm run build
 
 The output will be generated inside the `dist/` directory, which can be deployed to any static hosting provider (Vercel, Netlify, GitHub Pages, etc.).
 
-## 🧩 Architectural Highlights
+## Architectural Highlights
 
 1. **Custom Hooks isolation:** By moving complex operations (fetching, debouncing, sorting, paginating) out of the main component into dedicated hooks (`src/hooks/`), the `Dashboard` component remains clean, declarative, and focused solely on UI assembly.
 2. **Debounced Search:** Implementing a 300ms debounce step prevents the `filterByName` function from firing on every single keystroke, drastically improving performance.
