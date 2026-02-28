@@ -1,4 +1,3 @@
-
 export function getNestedValue(obj, key) {
     return key.split('.').reduce((o, k) => o?.[k], obj);
 }
