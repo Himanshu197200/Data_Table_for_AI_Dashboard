@@ -39,7 +39,7 @@ export default function Dashboard() {
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50">
             { }
             <header className="border-b border-slate-200 bg-white/80 backdrop-blur-sm">
-                <div className="mx-auto max-w-6xl px-4 py-5 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
                     <div className="flex items-center gap-3">
                         <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 shadow-md shadow-indigo-200">
                             <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -55,7 +55,7 @@ export default function Dashboard() {
             </header>
 
             { }
-            <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+            <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
                 { }
                 <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <SearchBar value={query} onChange={setQuery} />
